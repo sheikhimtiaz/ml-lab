@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Mar 29 17:27:25 2018
 
-@author: User
+@author: sheikhimtiaz
 """
 
 import os
@@ -12,7 +11,7 @@ import sys
 import csv
     
 def path_discover():
-    test_directory = "C:\\Users\\User\\Desktop\\ML\\Nazim\\category"
+    test_directory = "/Users/sheikhimtiaz/Education/Dataset_ML-Lab/ML/Document_Categorization"
     directories = []
     for child in os.listdir(test_directory):
         test_path = os.path.join(test_directory, child)
